@@ -1,0 +1,30 @@
+            <div id="main-content">
+                
+                <?php
+                    foreach ($rows as $num => $row){
+                        echo "<h2>${row['subject']}</h2>
+                        <p>${row['content']}</p>";
+                    }
+                    echo "<br><a href='index.php'>Back to home page</a>";
+                ?>
+                
+            </div>
+            
+            <div id="right-sidebar">
+                
+                <div class="contact">
+                    <h2>Have a question?</h2>
+                    <p>Send me an email and I'll reply in a future post!</p>
+                    
+                    <form method="post" action="mailto:zimmemeg@fullsail.edu">
+                        <input type="text" name="Name" placeholder="Name"><br />
+                        
+                        <input type="text" name="E-mail" placeholder="E-mail"><br />
+                            
+                        <textarea name="question" rows="10" cols="25" wrap="hard" placeholder="Enter your question here"></textarea><br />
+                        
+                        <input type="submit" name="Submit" value="Submit" id="submitbutton">
+                    </form>
+                </div>
+                
+            </div>

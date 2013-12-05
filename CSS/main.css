@@ -1,0 +1,150 @@
+/*General*/
+body{
+    background-image:url('../images/background.jpg');
+    background-repeat: repeat;
+    margin: 0px auto;
+    width: 960px;
+    border: solid 1px #000;
+}
+
+h1{
+    font-family: 'Poiret One';
+    font-weight: 300;
+    font-size: 36px;
+    margin: 5px;
+}
+
+h2{
+    font-family: 'Poiret One';
+    font-weight: 200;
+    font-size: 24px;
+    maring: 10px;
+}
+
+p{
+    font-family: 'Poiret One';
+    font-size: 13px;
+    margin: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #40B2F4;
+}
+
+/*Navigation*/
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav ul li{
+    display: inline;
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    width: 320px;
+    height: 30px;
+    font-family: 'Poiret One';
+    font-weight: bold;
+    color: #FFF;
+    background-color: #007BB2;
+    text-align: center;
+    padding: 0px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background-color: #023E91;
+    font-family: 'Poiret One';
+}
+
+/*Main Conent*/
+#main-wrapper{
+    width: 960px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+#main-content{
+    margin: 0;
+    width: 600px;
+    float: left;
+    text-align: center;
+}
+
+#main-content img.banner{
+    display: block;
+    margin-top: 10px;
+    margin: 0 auto;
+    background: #CCC;
+}
+
+/*Profile*/
+p img.profile{
+    margin: 5px 10px 5px 0px;
+}
+
+.contact{
+    border: 1px solid #000;
+    background-image: url("../images/contact.jpg");
+    background-color: #40B2F4;
+    height: 350px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+/*Sidebar*/
+#right-sidebar{
+    float: right;
+    width: 340px;
+    left: 620px;
+}
+
+#right-sidebar section{
+    text-align: center;
+    margin-top: 50px;
+}
+
+#right-sidebar section p{
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 1px 1px 1px #000;
+    display: none;
+}
+
+#right-sidebar section p:hover{
+    display: block;
+}
+
+#right-sidebar section img{
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    transition: all .5s ease;
+}
+
+#right-sidebar section img:hover {
+  -webkit-filter: brightness(50%);
+}
+
+
+
+
+
+/*Footer*/
+
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #FFF;
+    text-align: center;
+    clear: both;
+}

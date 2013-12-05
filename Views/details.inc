@@ -2,10 +2,10 @@
                 
                 <?php
                     foreach ($rows as $num => $row){
-                        echo "<h2>${row['subject']}</h2>
-                        <p>${row['content']}</p>";
+                        echo ("<h2>${row['subject']}</h2>
+                        <p>${row['content']}</p>");
                     }
-                    echo "<br><a href='index.php'>Back to home page</a>";
+                    echo ("<br /><a href='index.php'>Back to home page</a>");
                 ?>
                 
             </div>

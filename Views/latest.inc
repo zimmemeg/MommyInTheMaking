@@ -1,9 +1,9 @@
-<div id="main-content">
+            <div id="main-content">
             
             <?php
                 foreach ($rows as $num => $row){
                     $postNumber = $row[id];
-                    echo "<a href='details.php?id=" . mysql_real_escape_string($postNumber) . "'>${row['subject']}</a><br>";
+                    echo "<h1><a href='details.php?id=" . mysql_real_escape_string($postNumber) . "'>${row['subject']}</a><h1><br>";
                 }
             ?>    
                 

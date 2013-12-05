@@ -23,8 +23,9 @@ h2{
 
 p{
     font-family: 'Poiret One';
-    font-size: 13px;
+    font-size: 14px;
     margin: 5px;
+    padding-bottom: 10px;
 }
 
 a{
@@ -76,28 +77,64 @@ ul{
     margin: 0;
     width: 600px;
     float: left;
-    text-align: center;
+    text-align: left;
 }
 
 #main-content img.banner{
+    text-align: center;
     display: block;
     margin-top: 10px;
     margin: 0 auto;
     background: #CCC;
 }
 
+
+
 /*Profile*/
 p img.profile{
     margin: 5px 10px 5px 0px;
 }
 
+
+
+
+/*Contact page*/
 .contact{
     border: 1px solid #000;
     background-image: url("../images/contact.jpg");
     background-color: #40B2F4;
     height: 350px;
     margin-top: 25px;
+}
+
+.contact p, .contact h2{
     text-align: center;
+}
+
+form input{
+    margin: 0 0 10px 10px;
+    height: 20px;
+    width: 310px;
+    font-family: 'Poiret One', cursive; font-weight: 700;
+    font-size: 16px;
+}
+
+form textarea{
+    margin: 0 0 10px 10px;
+    height: 100px;
+    width: 310px;
+    font-family: 'Poiret One', cursive; font-weight: 700;
+    font-size: 16px;
+}
+
+#main-content img.contact{
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    height: 200px;
+    width: 250px;
+    margin: 0 auto;
+    background: #CCC;
 }
 
 /*Sidebar*/
@@ -135,6 +172,13 @@ p img.profile{
   -webkit-filter: brightness(50%);
 }
 
+
+/*Admin Pages*/
+#admin-main{
+    margin: 0;
+    width: 600px;
+    text-align: left;
+}
 
 
 

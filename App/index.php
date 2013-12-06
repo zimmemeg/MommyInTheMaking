@@ -1,7 +1,7 @@
 <?php
-    require_once "db.php";
-    require_once "blogModel.php";
-    require_once "blogView.php";
+    require_once "Class/db.php";
+    require_once "Class/blogModel.php";
+    require_once "Class/blogView.php";
     
     $model = new blogModel(MY_DSN, MY_USER, MY_PASS);
     

@@ -14,7 +14,7 @@ class blogModel {
     
     public function getBlogPosts(){
         $statement = $this->db->prepare("
-          SELECT id, subject
+          SELECT id, subject, content
           FROM posts
           ORDER BY id
         ");
@@ -35,7 +35,7 @@ class blogModel {
         $statement = $this->db->prepare("
             SELECT id, subject, content
             FROM posts
-            WHERE id= :id
+            WHERE id = :id
         ");
         
         try{

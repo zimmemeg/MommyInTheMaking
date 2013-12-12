@@ -33,7 +33,7 @@ class blogModel {
     
     public function getPostDetail($id){
         $statement = $this->db->prepare("
-            SELECT id, subject, content
+            SELECT *
             FROM posts
             WHERE id = :id
         ");

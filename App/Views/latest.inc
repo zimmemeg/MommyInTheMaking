@@ -11,12 +11,12 @@
             
             <div id="right-sidebar">
                 <section>
-                    <a href="Views/contact.php"><img src="images/106798813.jpg" alt="baby" height="150px" width="150px" /></a>
+                    <a href="Views/contact.php"><img src="images/174598252.jpg" alt="baby" height="150px" width="150px" /></a>
                         <p>Product Information</p>
                 </section>
                 
                 <section>
-                    <img src="images/106798813.jpg" alt="baby" height="150px" width="150px" />
+                    <img src="images/food.png" alt="baby" height="150px" width="150px" />
                 </section>
                 
                 <section>

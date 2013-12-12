@@ -39,7 +39,7 @@ if(!empty($username) && !empty($password)){
 }
 
 //Showing the header, footer, and depending if somebody is logged in or not, the
-//search page or the login page.
+//post page or login page.
 $view->show('header');
 $view->show($contentPage, $user);
 $view->show('footer');

@@ -13,7 +13,7 @@
     <body>
         <div id="main-wrapper">
              <header>
-                <a href="index.php"><img src="images/branding.png" alt="Mommy In The Making" width="377" height="203" id="logo"></a>
+                <a href="../App/index.php"><img src="images/branding.png" alt="Mommy In The Making" width="377" height="203" id="logo"></a>
                
             </header>
              

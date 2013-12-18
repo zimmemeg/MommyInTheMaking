@@ -8,4 +8,6 @@ you will need to download the files and install the blog.sql into your mysql ser
 12/10/13 - Created view for Admin section. Updated contact page/ sidebar nav<br>
 12/11/13 - Got Admin pages to authenticate and log in/log out. Still working on displaying posts fully.
 12/17/13 - Created CodeIgniter file structure.<br>
-12/18/13 - Got pages to display. Working on log in and detail display.
+12/18/13 - Got pages to display. Working on log in and detail display.<br>
+12/18/13 - All files in Codeigniter file structure. Log in functioning, admin files included within main folder.
+Working on displaying latest and posting to the database.

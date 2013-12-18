@@ -8,7 +8,6 @@ class Main extends CI_Controller {
 		$this->load->view('header.inc');
 		$this->load->view('latest.inc');
 		$this->load->view('footer.inc');
-		
 	}
 	
 	
@@ -32,14 +31,7 @@ class Main extends CI_Controller {
 		$this->load->view('archive.php');
 		$this->load->view('footer.inc');
 	}
-	
-	public function latest($latest){
-		
-		
-		
-	}
-	
-	
+
 	public function article($article)
 	{
 		
@@ -54,9 +46,7 @@ class Main extends CI_Controller {
 		{
 			$this->load->view('error.inc');
 		}
-		
-		
-		
+
 		$this->load->view('footer.inc');
 	}	
 	

@@ -10,7 +10,7 @@ session_destroy();
 
 //After the session is destroyed and the user is logged out, they
 //are automatically redirected back to the index page.
-header('Location: ../index.php');
+header('Location: <?php echo base_url(); ?>');
 exit;
 
 ?>

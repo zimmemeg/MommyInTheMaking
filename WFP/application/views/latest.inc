@@ -1,6 +1,6 @@
             <div id="main-content">
             
-              
+              <h2><?php echo $article['subject']; ?></h2>
                 
             </div>
             

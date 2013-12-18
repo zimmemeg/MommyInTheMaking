@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Admin Page - Mommy In The Making</title>
-        <link rel="stylesheet" type="text/css" href="<?php base_url(); ?>/assets/css/main.css">
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>/assets/css/main.css">
             
         <!--Main body text-->
         <link href='http://fonts.googleapis.com/css?family=Poiret+One' rel='stylesheet' type='text/css'>
@@ -17,12 +17,14 @@
                 
                 <div id="nav">
                     <ul>
-                        <li><a href="<?php echo base_url(); ?>logout">Log Out</a></li>
+                        <li><a href="home/logout">Log Out</a></li>
                     </ul>
                 </div>
             </header>
             <div id="main-content">
-              <form class="post" method="post">
+                <h2>Welcome back, <?php echo $username; ?>!</h2>
+                
+              <form action="home_view.php" class="post" method="post">
              
                  <input type="text" name="Subject" placeholder="Subject" autofocus required><br />
              

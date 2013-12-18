@@ -1,0 +1,132 @@
+/*General*/
+body{
+    background-image:url('../images/background.jpg');
+    background-repeat: repeat;
+    margin: 0px auto;
+    width: 960px;
+    border: solid 1px #000;
+}
+
+h1{
+    font-family: 'Poiret One';
+    font-weight: 300;
+    font-size: 36px;
+    margin: 5px;
+}
+
+h2{
+    font-family: 'Poiret One';
+    font-weight: 200;
+    font-size: 24px;
+    maring: 10px;
+}
+
+p{
+    font-family: 'Poiret One';
+    font-size: 14px;
+    margin: 5px;
+    padding-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: #40B2F4;
+}
+
+/*Navigation*/
+
+/*This is to display the blue block on the login page*/
+#nav{
+    display: block;
+    width: 960px;
+    height: 40px;
+    background-color: #007BB2;
+}
+
+/*This is to display the main navigation for the log out*/
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#nav ul li{
+    display: inline;
+    float: left;
+}
+
+#nav li a {
+    display: block;
+    width: 960px;
+    height: 30px;
+    font-family: 'Poiret One';
+    font-weight: bold;
+    color: #FFF;
+    background-color: #007BB2;
+    text-align: center;
+    padding: 0px;
+    padding-top: 10px;
+    text-decoration: none;
+}
+
+#nav li a:hover{
+    background-color: #023E91;
+    font-family: 'Poiret One';
+}
+
+/*Main Conent*/
+#main-wrapper{
+    width: 960px;
+    background-color: #FFF;
+    padding: 10px;
+}
+
+#main-content{
+    margin: 0;
+    width: 600px;
+    float: left;
+    text-align: left;
+}
+
+
+/*FORM*/
+
+form input{
+    margin: 10px;
+    height: 20px;
+    width: 510px;
+    font-family: 'Poiret One', cursive; font-weight: 700;
+    font-size: 16px;
+}
+
+form textarea{
+    margin: 10px;
+    height: 200px;
+    width: 510px;
+    font-family: 'Poiret One', cursive; font-weight: 700;
+    font-size: 16px;
+}
+
+
+
+/*Admin Pages*/
+#main-content{
+    margin: 0;
+    width: 600px;
+    text-align: left;
+}
+
+#main-content form.post{
+    margin-top: 20px;
+}
+
+/*Footer*/
+
+footer{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #FFF;
+    text-align: center;
+    clear: both;
+}

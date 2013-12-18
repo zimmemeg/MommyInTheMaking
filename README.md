@@ -7,3 +7,5 @@ you will need to download the files and install the blog.sql into your mysql ser
 12/5/13 - Put everything into an App folder. Still can't get the detail page to function.<br>
 12/10/13 - Created view for Admin section. Updated contact page/ sidebar nav<br>
 12/11/13 - Got Admin pages to authenticate and log in/log out. Still working on displaying posts fully.
+12/17/13 - Created CodeIgniter file structure.<br>
+12/18/13 - Got pages to display. Working on log in and detail display.

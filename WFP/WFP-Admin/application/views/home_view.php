@@ -23,18 +23,17 @@
             </header>
             <div id="main-content">
                 <h2>Welcome back, <?php echo $username; ?>!</h2>
-                
-              <form action="home_view.php" class="post" method="post">
-             
+               
+              <form action="..<?php echo base_url(); ?>views/insert.php" class="post" method="post">
                  <input type="text" name="Subject" placeholder="Subject" autofocus required><br />
-             
+                 <input type="text" name="Summary" placeholder="Summary" required><br />
                  <textarea name="content" rows="20" cols="30" wrap="hard" placeholder="Enter your blog post here!" required></textarea><br />
-                        
-                 <input type="submit" name="Submit" value="Submit" id="submitbutton">
-             
+                 <input type="submit" name="Submit" value="Submit">
               </form> 
             </div>
-             
+            
+            
+            
             <footer>
                 <p>&copy; Megan Zimmerman | Dragon Productions | 2013</p>
             </footer>

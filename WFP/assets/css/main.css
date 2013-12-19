@@ -138,29 +138,16 @@ form textarea{
 }
 
 /*Sidebar*/
-#right-sidebar{
+aside {
     float: right;
     width: 340px;
-    left: 620px;
 }
-
-#right-sidebar section{
+aside li {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px; 
 }
 
-#right-sidebar section p{
-    color: #fff;
-    font-size: 14px;
-    text-shadow: 1px 1px 1px #000;
-    display: none;
-}
-
-#right-sidebar section p:hover{
-    display: block;
-}
-
-#right-sidebar section img{
+aside img{
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;
     -o-transition: all .5s ease;
@@ -168,7 +155,7 @@ form textarea{
     transition: all .5s ease;
 }
 
-#right-sidebar section img:hover {
+aside img:hover {
   -webkit-filter: brightness(50%);
 }
 

@@ -6,8 +6,13 @@ class Main extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('header.inc');
-		$this->load->view('latest.inc');
+		
+		$data['latest'] = Blog::getBlogPosts(); 
+		$this->load->view('latest.inc', $data);
+		$this->load->view('gallery.inc');
 		$this->load->view('footer.inc');
+	
+
 	}
 	
 	
@@ -15,6 +20,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('header.inc');
 		$this->load->view('profile.php');
+		$this->load->view('contact.inc');
 		$this->load->view('footer.inc');
 	}
 	
@@ -22,6 +28,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('header.inc');
 		$this->load->view('contact.php');
+		$this->load->view('contact.inc');
 		$this->load->view('footer.inc');
 	}
 	
@@ -29,6 +36,7 @@ class Main extends CI_Controller {
 	{
 		$this->load->view('header.inc');
 		$this->load->view('archive.php');
+		$this->load->view('gallery.inc');
 		$this->load->view('footer.inc');
 	}
 
@@ -46,7 +54,7 @@ class Main extends CI_Controller {
 		{
 			$this->load->view('error.inc');
 		}
-
+		$this->load->view('contact.inc');
 		$this->load->view('footer.inc');
 	}	
 	
